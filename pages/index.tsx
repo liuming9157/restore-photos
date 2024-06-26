@@ -40,11 +40,11 @@ const Home: NextPage = () => {
         <div className='flex justify-center space-x-4'>
           <a
             className='bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border'
-            href='https://www.roomgpt.io/'
+            href='https://inpainter.55ai.store/'
             target='_blank'
             rel='noreferrer'
           >
-            Check out roomGPT
+            Check out Inpainter Stable Diffusion
           </a>
 
           <Link
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
         </div>
       </main>
       <Testimonials />
-      <Footer />
+{/*       <Footer /> */}
     </div>
   );
 };
