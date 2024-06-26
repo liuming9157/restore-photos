@@ -22,19 +22,19 @@ export default function Footer() {
         </a>
         . Created by{' '}
         <a
-          href='https://www.twitter.com/nutlope'
+          href='https://x.com/liuming9157'
           target='_blank'
           className='font-bold transition hover:text-black/50'
         >
-          Hassan
+          Jack
         </a>{' '}
-        (hassan@hey.com).
+        (liuming@mzsat.cn).
       </div>
       <div className='flex space-x-4 pb-4 sm:pb-0'>
         <Link
-          href='https://twitter.com/nutlope'
+          href='https://x.com/liuming9157'
           className='group'
-          aria-label='TaxPal on Twitter'
+          aria-label='Jack on X'
         >
           <svg
             aria-hidden='true'
@@ -44,7 +44,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href='https://github.com/Nutlope/restorePhotos'
+          href='https://github.com/liuming9157/restore-photos'
           className='group'
           aria-label='TaxPal on GitHub'
         >
