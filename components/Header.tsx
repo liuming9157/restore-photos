@@ -13,7 +13,7 @@ export default function Header({ photo }: { photo?: string | undefined }) {
           height={20}
         />
         <h1 className='sm:text-3xl text-xl font-bold ml-2 tracking-tight'>
-          restorePhotos.io
+          photo.55ai.store
         </h1>
       </Link>
       {photo ? (
