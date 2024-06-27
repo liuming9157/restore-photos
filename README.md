@@ -1,8 +1,8 @@
-# [RestorePhotos.io](https://restorephotos.io/)
+# [photo.55ai.store](https://photo.55ai.store/)
 
-This project restores old face photos using AI. Watch the [4 minute explainer video](https://twitter.com/nutlope/status/1614794731396931585) to see how I built this or see the [15 second demo](https://twitter.com/nutlope/status/1612488923716136962).
+This project restores old face photos using AI. 
 
-[![Face Photo Restorer](./public/screenshot.png)](https://restorephotos.io/)
+[![Face Photo Restorer](./public/screenshot.png)](https://photo.55ai.store/)
 
 ## How it works
 
@@ -10,12 +10,12 @@ It uses an ML model from the Applied Research Center called [GFPGAN](https://git
 
 ## Running Locally
 
-Note: I just added auth so these steps are not complete as of now. You can git clone from [this specific commit](https://github.com/Nutlope/restorePhotos/tree/1c5c8ac4f52a08f68a3091d3b21be8a65aef71f2).
+Note: I just added auth so these steps are not complete as of now. You can git clone from [this specific commit](https://github.com/liuming9157/restore-photos/tree/1c5c8ac4f52a08f68a3091d3b21be8a65aef71f2).
 
 ### Cloning the repository the local machine.
 
 ```bash
-git clone
+git clone https://github.com/liuming9157/restore-photos.git
 ```
 
 ### Creating a account on Replicate to get an API key.
@@ -33,7 +33,7 @@ If you'd also like to do rate limiting, create an account on UpStash, create a R
 ### Installing the dependencies.
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Running the application.
@@ -41,14 +41,14 @@ npm install
 Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## One-Click Deploy
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nutlope/restorePhotos&env=REPLICATE_API_KEY&project-name=face-photo-restorer&repo-name=restore-photos)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/liuming9157/restore-photos&env=REPLICATE_API_KEY,NEXTAUTH_URL,NEXTAUTH_SECRET,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,DATABASE_URL&project-name=face-photo-restorer&repo-name=restore-photos)
 
 ## Powered by
 
