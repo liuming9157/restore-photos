@@ -73,7 +73,7 @@ const Home: NextPage = () => {
                   alt='Restored photo of my bro'
                   width={400}
                   height={400}
-                  src='/liuming-new.jpg'
+                  src='/liuming-new.png'
                   className='w-96 h-96 rounded-2xl sm:mt-0 mt-2'
                 />
               </div>
