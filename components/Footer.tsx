@@ -7,10 +7,10 @@ export default function Footer() {
         <div>
           <div className="text-lg font-bold">Products</div>
           <div>
-            <a href="https://55ai.stroe" title="AI Navigation" className="text-sm underline" target='_blank'>AI Navigation</a>
-            <a href="https://tinypic.55ai.stroe" title="Image Compress" className="text-sm underline" target='_blank'>Image Compress</a>
-            <a href="https://inpainter.55ai.stroe" title="Image Inpainter" className="text-sm underline" target='_blank'>Image Inpainter</a>
-            <a href="https://ps.55ai.stroe" title="Online Photoshop" className="text-sm underline" target='_blank'>Online Photoshop</a>
+            <a href="https://55ai.store" title="AI Navigation" className="text-sm underline" target='_blank'>AI Navigation</a><br/>
+            <a href="https://tinypic.55ai.store" title="Image Compress" className="text-sm underline" target='_blank'>Image Compress</a><br/>
+            <a href="https://inpainter.55ai.store" title="Image Inpainter" className="text-sm underline" target='_blank'>Image Inpainter</a><br/>
+            <a href="https://ps.55ai.store" title="Online Photoshop" className="text-sm underline" target='_blank'>Online Photoshop</a>
 
           </div>
         </div>
@@ -23,8 +23,8 @@ export default function Footer() {
         <div>
           <div className="text-lg font-bold">Legal</div>
           <div>
-            <Link href="/terms-of-use" title="Terms of Use" className="text-sm underline">Terms of Use</Link>
-            <Link href="/provacy-policy" title="Privacy Policy" className="text-sm underline">Privacy Policy</Link>
+            <Link href="/terms-of-service" title="Terms of Service" className="text-sm underline">Terms of  Service</Link><br/>
+            <Link href="/privacy-policy" title="Privacy Policy" className="text-sm underline">Privacy Policy</Link>
 
           </div>
         </div>
