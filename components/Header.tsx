@@ -33,6 +33,13 @@ export default function Header({ photo }: { photo?: string | undefined }) {
             <p className='font-medium text-base'>Home</p>
           </Link>
           <Link
+            href='https://55ai.store'
+            className='border-r border-gray-300 pr-4 space-x-2 hover:text-blue-400 transition hidden sm:flex'
+            target='_blank'
+          >
+            <p className='font-medium text-base'>AI Navigation</p>
+          </Link>
+          <Link
             href='/restore'
             className='border-gray-300 pr-4 space-x-2 hover:text-blue-400 transition hidden sm:flex'
           >
