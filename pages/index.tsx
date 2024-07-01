@@ -32,11 +32,17 @@ const Home: NextPage = () => {
           </span>{' '}
           for everyone.
         </h1>
+        <p className='mx-auto mt-8'>
+          <a href="https://www.producthunt.com/posts/restorephotos?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-restorephotos" target="_blank">
+            <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=467270&theme=light" alt="RestorePhotos - Restoring&#0032;old&#0032;photos&#0032;using&#0032;AI&#0032;for&#0032;everyone&#0046; | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" />
+          </a>
+        </p>
 
         <p className='mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7'>
           Have old and blurry face photos? Let our AI restore them so those
           memories can live on. 100% free – restore your photos today.
         </p>
+
         <div className='flex justify-center space-x-4'>
           <a
             className='bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border'
